@@ -1,0 +1,21 @@
+
+
+using System;
+
+namespace Primeiro
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter your Name:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Enter the year you were born in :");
+            int aqn = Convert.ToInt32(Console.ReadLine());
+            int idade = (2026 - aqn );
+            Console.WriteLine("Your name is : " + nome );
+            Console.WriteLine("Your age is : " + idade );
+
+        }
+    }
+}
